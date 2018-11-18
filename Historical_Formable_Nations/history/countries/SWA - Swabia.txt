@@ -1,0 +1,10 @@
+government = despotic_monarchy
+government_rank = 2
+primary_culture = swabian
+religion = catholic
+technology_group = western
+historical_rival = FRA
+historical_rival = HAB
+capital = 69 #Schwaben
+fixed_capital = 69 # Schwaben
+national_focus = MIL

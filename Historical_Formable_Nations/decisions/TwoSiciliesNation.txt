@@ -1,0 +1,59 @@
+country_decisions = {
+
+	twosicilies_nation = {
+	
+		major = yes
+		
+		potential = {
+			tag = NAP
+			owns_core_province = 121 # Naples
+			OR = {
+				owns_core_province = 124
+				owns_core_province = 125
+				owns_core_province = 2982
+			}
+			NOT = { has_country_flag = formed_twosicilies_flag }
+		}
+		
+		allow = {
+			adm_tech = 20
+			is_at_war = no
+			NOT = { exists = TWS }
+		}
+		
+		effect = {
+			change_tag = TWS
+			every_province = {
+				limit = {
+					OR = {
+						culture = sicilian
+						culture = neapolitan
+					}
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TWS
+			}
+			if = {
+				limit = {
+					government = republic
+				}
+				change_government = absolute_monarchy
+			}
+			add_prestige = 20
+			TWS = {
+				set_capital = 121
+			}
+			set_country_flag = formed_twosicilies_flag
+		}
+		
+		ai_will_do = {
+			factor = 0
+				modifier = {
+					factor = 1
+					is year = 1810
+				}
+		}
+		ai_importance = 400
+		
+	}
+}

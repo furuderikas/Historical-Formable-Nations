@@ -1,0 +1,18 @@
+#Historical Formable Nations
+
+IBE = "countries/Iberia.txt"
+BEL = "countries/Belgium.txt"
+SCG = "countries/SaxeCoburgGotha.txt"
+SWA = "countries/Swabia.txt"
+RMA = "countries/Romana.txt"
+TWS = "countries/TwoSicilies.txt"
+ECU = "countries/Ecuador.txt"
+BOL = "countries/Bolivia.txt"
+URU = "countries/Uruguay.txt"
+GYN = "countries/Guyana.txt"
+LIB = "countries/Liberia.txt"
+ORA = "countries/Orange.txt"
+TRV = "countries/Transvaal.txt"
+ZLU = "countries/Zulu.txt"
+MGC = "countries/Madagascar.txt"
+HWA = "countries/Hawaii.txt"

@@ -1,0 +1,17 @@
+government = despotic_monarchy
+government_rank = 3
+primary_culture = castillian
+add_accepted_culture = basque
+add_accepted_culture = leonese
+add_accepted_culture = andalusian
+add_accepted_culture = galician
+add_accepted_culture = catalan
+add_accepted_culture = portuguese
+religion = catholic
+technology_group = western
+historical_friend = ENG
+historical_friend = NAP
+historical_rival = FRA
+capital = 224 # Sevilla
+
+national_focus = DIP

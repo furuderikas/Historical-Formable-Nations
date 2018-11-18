@@ -1,0 +1,6 @@
+government = oligarchic_republic
+primary_culture = umbrian
+religion = catholic
+technology_group = western
+capital = 118 # Roma
+fixed_capital = 118 # Roma

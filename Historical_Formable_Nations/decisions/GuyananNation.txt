@@ -1,0 +1,62 @@
+country_decisions = {
+
+	guyanan_nation = {
+	
+		major = yes
+		
+		potential = {
+			is_former_colonial_nation = yes
+			owns_core_province = 2803 
+			NOT = { has_country_flag = changed_from_colonial_nation }
+			NOT = { tag = COL }
+			NOT = { tag = VEN }
+		}
+		
+		allow = {
+			adm_tech = 10
+			num_of_cities = 3
+			is_former_colonial_nation = yes
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			NOT = { exists = GYN }
+		}
+		
+		effect = {
+			change_tag = GYN
+			every_province = {
+				limit = {
+					area = guyana
+					area = suriname
+					area = upper_guyana
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = GYN
+			}
+			if = {
+				limit = {
+					government = monarchy
+				}
+				change_government = constitutional_republic
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			GYN = {
+				set_capital = 2803
+			}
+			add_prestige = 25
+			set_country_flag = changed_from_colonial_nation
+		}
+		
+		ai_will_do = {
+			factor = 0
+				modifier = {
+					factor = 1
+					is year = 1800
+				}
+		}
+		ai_importance = 400
+		
+	}
+}

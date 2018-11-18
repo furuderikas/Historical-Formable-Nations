@@ -1,0 +1,7 @@
+government = constitutional_republic
+primary_culture = castillian
+religion = catholic
+technology_group = western
+capital = 820
+fixed_capital = 820
+national_focus = ADM

@@ -1,0 +1,71 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+color = { 157  51  167 }
+
+revolutionary_colors = { 1  8  5 }
+
+preferred_religion = catholic
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	french_caracolle
+	swedish_gallop
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	french_bluecoat
+	french_dragoon
+	french_impulse
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	monarch_names = {
+	"Leopold #0" = 80
+	"Albert #0" = 40
+	"Baudouin #0" = 40
+	"Philippe #0" 40
+	
+	"Rosanne #0" = -1
+}
+
+leader_names = {
+	Leman "de Richemont" "de Rochechouart" "de Rochemaure" "de Rieu"
+	Batenburg Brandt "Van Galen" Martena "De Moor"
+	"Van Renesse" "Van Utenhove" "De Winter"
+}
+
+ship_names = {
+	"Comte de Smet de Nayer"
+}
+
+
+army_names = {
+	"Armee von $PROVINCE$"
+}
+
+fleet_names = {
+	"Stadtflotte" "Flotte de la Mer Nord" "Flotte von $PROVINCE$" 
+}

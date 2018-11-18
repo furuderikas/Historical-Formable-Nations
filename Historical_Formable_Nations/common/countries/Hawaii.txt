@@ -1,0 +1,57 @@
+#Country Name: Please see filename.
+
+graphical_culture = northamericagfx
+
+color = { 120  180  155 }
+
+historical_idea_groups = {
+	trade_ideas
+	maritime_ideas
+	defensive_ideas
+	economic_ideas
+	administrative_ideas
+	innovative_ideas
+	naval_ideas
+	offensive_ideas
+}
+
+historical_units = {
+	east_asian_spearmen
+	eastern_bow
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	reformed_asian_musketeer
+	reformed_asian_cavalry
+}
+
+leader_names = {
+	 Keanu Kale Kana Kala Nalani Hui
+	 Alika Akamai Ekewaka
+}
+
+monarch_names = {
+	"Kamehameha #0" = 100
+	"Alekanekelo #0" = 50
+	"Hailama #0" = 50
+	"Ilima #0" = 50
+	"Kaimana #0" = 50
+	"Makani #0" = 50
+	"Akamu  #0" = 50
+	"Haulani #0" = 60
+	"Ikaika #0" = 50
+	"Komala Pulu #0" = 10
+	
+	
+	"Leilani #0" = -1
+	"Elikapela #0" = -1
+	"Iolana #0" = -1
+	"Kaia #0" = -1
+	"Kekepania #0" = -1
+}
+
+ship_names = {
+	Balla Bulu Lompo Sallo Karaeng Bambang
+	Cipuru Doe Iyo Tena Tabe Apa Lakeko Battu Keko
+}

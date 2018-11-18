@@ -1,0 +1,50 @@
+country_decisions = {
+
+	liberian_nation = {
+	
+		major = yes
+		
+		potential = {
+			primary_culture = american
+			NOT = { tag = USA }
+			NOT = { has_country_flag = formed_liberia_flag }
+		}
+		
+		allow = {
+			adm_tech = 15
+			is_at_war = no
+			OR {
+				has_core_province = 1118
+				has_core_province = 1119
+				has_core_province = 2241
+				has_core_province = 2242
+			}
+			NOT = { exists = LIB }
+		}
+		
+		effect = {
+			change_tag = LIB
+			every_province = {
+				limit = {
+					area = guinea
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = LIB
+			}
+			change_government = constitutional_republic
+			
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 30
+			set_country_flag = formed_liberia_flag
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+		
+	}
+}

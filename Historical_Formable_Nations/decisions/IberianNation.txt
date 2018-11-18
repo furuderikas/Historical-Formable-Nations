@@ -1,0 +1,42 @@
+country_decisions = {
+
+	iberian_nation = {
+	
+		major = yes
+		
+		potential = {
+			TAG = POR
+			TAG = SPA
+			NOT = { has_country_flag = formed_iberia_flag }
+		}
+		
+		allow = {
+			adm_tech = 15
+			is_at_war = no
+			has_core_province = 227
+			has_core_province = 219
+			has_core_province = 214
+			has_core_province = 223
+			NOT = { exists = IBE }
+		}
+		
+		effect = {
+			change_tag = IBE
+			every_province = {
+				limit = {
+					culture_group = iberian
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = IBE
+			}
+			add_prestige = 30
+			set_country_flag = formed_iberia_flag
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+		
+	}
+}

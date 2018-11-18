@@ -1,0 +1,10 @@
+government = absolute_monarchy
+primary_culture = flemish
+add_accepted_culture = dutch
+add_accepted_culture = wallonian
+religion = catholic
+technology_group = western
+historical_rival = NED
+capital = 90 #Antwerp
+fixed_capital = 90 # Antwerp
+national_focus = ADM

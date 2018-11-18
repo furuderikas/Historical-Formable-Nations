@@ -1,0 +1,54 @@
+country_decisions = {
+
+	oranje_nation = {
+	
+		major = yes
+		
+		potential = {
+			primary_culture = dutch
+			NOT = { tag = NED }
+			NOT = { any_owned_province = {continent = europe} }
+			NOT = { has_country_flag = formed_oranje_flag }
+			NOT = { has_country_flag = formed_transvaal_flag }
+		}
+		
+		allow = {
+			adm_tech = 15
+			is_at_war = no
+			OR {
+				has_core_province = 1175
+				has_core_province = 1176
+				has_core_province = 1178
+				has_core_province = 2880
+				has_core_province = 2864
+			}
+			NOT = { exists = ORA }
+		}
+		
+		effect = {
+			change_tag = ORA
+			every_province = {
+				limit = {
+					area = South_African_Plateau
+					NOT = { owned_by = ROOT }
+					NOT = { owned_by = TRV }
+				}
+				add_permanent_claim = ORA
+			}
+			change_government = constitutional_republic
+			
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 30
+			set_country_flag = formed_oranje_flag
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+		
+	}
+}

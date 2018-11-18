@@ -1,0 +1,8 @@
+government = absolute_monarchy
+primary_culture = neapolitan
+add_accepted_culture = sicilian
+religion = catholic
+technology_group = western
+historical_rival = PAP
+capital = 121 # Naples
+fixed_capital = 121 # Naples

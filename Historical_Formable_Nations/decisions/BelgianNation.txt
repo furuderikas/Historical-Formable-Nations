@@ -1,0 +1,53 @@
+country_decisions = {
+
+	belgian_nation = {
+	
+		major = yes
+		
+		potential = {
+			primary_culture = flemish
+			owns_core_province = 90 # Antwerp
+			NOT = { has_country_flag = formed_belgium_flag }
+			NOT = { tag = BEL }
+			NOT = { tag = NED }
+		}
+		
+		allow = {
+			adm_tech = 15
+			is_at_war = no
+			NOT = { exists = BEL }
+		}
+		
+		effect = {
+			change_tag = BEL
+			every_province = {
+				limit = {
+					culture = flemish
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = BEL
+			}
+			if = {
+				limit = {
+					government = republic
+				}
+				change_government = administrative_monarchy
+			}
+			add_prestige = 20
+			BEL = {
+				set_capital = 90
+			}
+			set_country_flag = formed_belgium_flag
+		}
+		
+		ai_will_do = {
+			factor = 0
+				modifier = {
+					factor = 1
+					is year = 1810
+				}
+		}
+		ai_importance = 400
+		
+	}
+}

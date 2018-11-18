@@ -1,0 +1,8 @@
+government = despotic_monarchy
+primary_culture = polynesian
+religion = animist
+technology_group = chinese 
+unit_type = north_american
+capital = 1240
+fixed_capital = 1240
+national_focus = DIP

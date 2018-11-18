@@ -1,0 +1,5 @@
+government = administrative_republic
+primary_culture = dutch
+religion = reformed
+technology_group = western
+historical_friend = TRV
